@@ -7,22 +7,22 @@ class Grid < Formula
   on_macos do
     on_arm do
       url "https://github.com/diphyx/grid/releases/download/v1.0.0/grid_1.0.0_darwin_arm64.tar.gz"
-      sha256 "03cac7fd0d0a729c25744b3f0e1e5f072ee4a6d19d3c9c10b95c7dbab24817ae"
+      sha256 "62ff6aedc515e25ad06ac750e9c1cb256b8d0c214df50134c2cb10ddef52de53"
     end
     on_intel do
       url "https://github.com/diphyx/grid/releases/download/v1.0.0/grid_1.0.0_darwin_amd64.tar.gz"
-      sha256 "8a04070d37ad2ef3d1383943d8e2c0124f7606d1b2f08996a4eb6e4c4472a453"
+      sha256 "8c814c614154c941515e2562858b9a3900d0a62365c2df8715c0a2c6ce47102c"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/diphyx/grid/releases/download/v1.0.0/grid_1.0.0_linux_arm64.tar.gz"
-      sha256 "aca4efa2148669a6c25843ab3c13c09e01cb5d30b51bc7c5bd5bffac51240eab"
+      sha256 "a5e4d7efd5dbfd00d9cff020f37591559af8a527866ba876557d47d8c6eab7e7"
     end
     on_intel do
       url "https://github.com/diphyx/grid/releases/download/v1.0.0/grid_1.0.0_linux_amd64.tar.gz"
-      sha256 "c54a9588bee9f8e7323d93de67de49e31fae2962088016e769e0efa3e9acfd57"
+      sha256 "2e256f594cb70b4ede7d6bbf4118d8f2cc47372cb4760dbb7b76fb091feb667c"
     end
   end
 
