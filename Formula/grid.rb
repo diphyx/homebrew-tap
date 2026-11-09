@@ -2,27 +2,27 @@
 class Grid < Formula
   desc "Send jobs to machines you control, and get the results back"
   homepage "https://github.com/diphyx/grid"
-  version "1.0.0"
+  version "2.0.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/diphyx/grid/releases/download/v1.0.0/grid_1.0.0_darwin_arm64.tar.gz"
-      sha256 "62ff6aedc515e25ad06ac750e9c1cb256b8d0c214df50134c2cb10ddef52de53"
+      url "https://github.com/diphyx/grid/releases/download/v2.0.0/grid_2.0.0_darwin_arm64.tar.gz"
+      sha256 "09b52df23b59de2597c61620e85df23eeb2ad928adfa4eb29b42ff8a6bd44ad8"
     end
     on_intel do
-      url "https://github.com/diphyx/grid/releases/download/v1.0.0/grid_1.0.0_darwin_amd64.tar.gz"
-      sha256 "8c814c614154c941515e2562858b9a3900d0a62365c2df8715c0a2c6ce47102c"
+      url "https://github.com/diphyx/grid/releases/download/v2.0.0/grid_2.0.0_darwin_amd64.tar.gz"
+      sha256 "f435ae623e1465002ad01aa80c758ab02c09c83d3a08656df513f78fb82dce58"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/diphyx/grid/releases/download/v1.0.0/grid_1.0.0_linux_arm64.tar.gz"
-      sha256 "a5e4d7efd5dbfd00d9cff020f37591559af8a527866ba876557d47d8c6eab7e7"
+      url "https://github.com/diphyx/grid/releases/download/v2.0.0/grid_2.0.0_linux_arm64.tar.gz"
+      sha256 "18b2cb9ea66a1180acf77e9c29c0c142b3dea38f670f74e052ac3e9f11fe6120"
     end
     on_intel do
-      url "https://github.com/diphyx/grid/releases/download/v1.0.0/grid_1.0.0_linux_amd64.tar.gz"
-      sha256 "2e256f594cb70b4ede7d6bbf4118d8f2cc47372cb4760dbb7b76fb091feb667c"
+      url "https://github.com/diphyx/grid/releases/download/v2.0.0/grid_2.0.0_linux_amd64.tar.gz"
+      sha256 "854c975a26a00b41876f2be972114f578cefd4fc6a87d546d876ae4ca98104ce"
     end
   end
 
