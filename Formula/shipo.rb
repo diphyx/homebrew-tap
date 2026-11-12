@@ -5,27 +5,25 @@ class Shipo < Formula
   version "1.2.0"
   license "MIT"
 
-  depends_on "git"
-
   on_macos do
     on_arm do
       url "https://github.com/diphyx/shipo/releases/download/v1.2.0/shipo_1.2.0_darwin_arm64.tar.gz"
-      sha256 "f800f2aaa6b16a62b84548351b916e50711db82662b6bc04405c165c3a2b1afd"
+      sha256 "54255eb3d0cc7f07936d2f46fceac98aa1312a158e6b2893f21d05b218e2a952"
     end
     on_intel do
       url "https://github.com/diphyx/shipo/releases/download/v1.2.0/shipo_1.2.0_darwin_amd64.tar.gz"
-      sha256 "858e1fadc8aeea19a22700b3c28ada872cca79aacb1590dcf9d851783ddbb358"
+      sha256 "f0fb41020811584f5c7e3de0e48874671be7bf1759be1d6de38de9e6b4222be5"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/diphyx/shipo/releases/download/v1.2.0/shipo_1.2.0_linux_arm64.tar.gz"
-      sha256 "a3e060e69e8842c40949f4ce6d84b92eb4492c98c3668db2286c8104f604650a"
+      sha256 "d0b07022bf6d290d3b5b156256e5c7803a9f0d78d4254b52a3618baadccac598"
     end
     on_intel do
       url "https://github.com/diphyx/shipo/releases/download/v1.2.0/shipo_1.2.0_linux_amd64.tar.gz"
-      sha256 "a66c09324ea54732f433a99ad121549b8163f46fbcc86777af338a4223e59729"
+      sha256 "40c697fcab404dcb3abe670a19d3b776336ea280eb93845d15704482739c9956"
     end
   end
 
