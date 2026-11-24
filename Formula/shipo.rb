@@ -2,28 +2,28 @@
 class Shipo < Formula
   desc "Bump, tag, push and release in one safe, easy command"
   homepage "https://github.com/diphyx/shipo"
-  version "1.4.5"
+  version "1.4.6"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/diphyx/shipo/releases/download/v1.4.5/shipo_1.4.5_darwin_arm64.tar.gz"
-      sha256 "ba06f34f03464a88bc280566a3852fec0fb8fcf0d3029684a588095519d7a38f"
+      url "https://github.com/diphyx/shipo/releases/download/v1.4.6/shipo_1.4.6_darwin_arm64.tar.gz"
+      sha256 "c0c82afc646034e64cd5d320b47404bb38a11fb517ad2545b3669e60e3281804"
     end
     on_intel do
-      url "https://github.com/diphyx/shipo/releases/download/v1.4.5/shipo_1.4.5_darwin_amd64.tar.gz"
-      sha256 "383f63e7ba29fd01e19e070e00d203ded78d9b51766d5c74485a88a6c1dc16df"
+      url "https://github.com/diphyx/shipo/releases/download/v1.4.6/shipo_1.4.6_darwin_amd64.tar.gz"
+      sha256 "be019fd83c83e6604d384a20de8271642554cbb9982cae425b920b5ae8a5a0f1"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/diphyx/shipo/releases/download/v1.4.5/shipo_1.4.5_linux_arm64.tar.gz"
-      sha256 "3dbe47df5876d61483b365f4d2705b53ad9f148117e76552661073ae2ca08479"
+      url "https://github.com/diphyx/shipo/releases/download/v1.4.6/shipo_1.4.6_linux_arm64.tar.gz"
+      sha256 "8b520a19e92204e124d535aff1a0f6d77aa977942507c26fc549e164a604e91d"
     end
     on_intel do
-      url "https://github.com/diphyx/shipo/releases/download/v1.4.5/shipo_1.4.5_linux_amd64.tar.gz"
-      sha256 "08160bca290445fa3b384fcce8943fd55f385cf22e087f198ed1fff8ade6ac1b"
+      url "https://github.com/diphyx/shipo/releases/download/v1.4.6/shipo_1.4.6_linux_amd64.tar.gz"
+      sha256 "268d20afc3d017ddee14d3cf901b830087dfaa682ea7e0eec05b9a444146459c"
     end
   end
 
